@@ -595,6 +595,16 @@ i:hover {
     width:40px ;
     height:40px ;
   }
+  .checklist1{
+    margin: 6px;
+  }
+     .inputfield{
+  margin: 6px 0px 0px 6px;
+ }
+ .checklist2{
+  margin: 10px 6px 10px 6px;
+ }
+  
 }
 @media(max-width:830px){
 
@@ -616,6 +626,10 @@ i:hover {
   .header2{
     font-size: 30px;
   }
+   .inputfield{
+  margin: 6px 0px 0px 6px;
+ }
+ 
 
 }
 
@@ -713,6 +727,7 @@ display: none;
   width: 50px;
   height: 50px;
  }
+
 }
 /* 
 @media (max-width:550px) {
@@ -771,7 +786,7 @@ display: none;
   }
   .inputfield{
 
-    width: 94%;
+    width: 97.5%;
   display: flex;
   gap:10px;
   align-items: center;
@@ -812,7 +827,7 @@ display: none;
   font-size: 25px;
  
   padding: 10px;
-  margin: 10px;
+  margin: 6px;
   
 }
 .check ,.check-completed{
@@ -871,7 +886,7 @@ display: none;
   }
   .inputfield{
 
-    width: 94%;
+    width: 97.5%;
   display: flex;
   gap:10px;
   align-items: center;
@@ -912,7 +927,7 @@ display: none;
   font-size: 25px;
  
   padding: 10px;
-  margin: 10px;
+  margin: 6px;
   
 }
 .check ,.check-completed{
