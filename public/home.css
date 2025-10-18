@@ -186,6 +186,10 @@ body {
   /* Firefox */
   -ms-overflow-style: none;
   /* Internet Explorer / Edge */
+
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 .EMPTY-LIST{
   font-family: "Open Sans", sans-serif;
@@ -203,7 +207,7 @@ body {
   gap: 20px;
   align-content: center;
   justify-content: space-between;
-  width: 90%;
+  width: 97.5%;
   font-family: "Open Sans", sans-serif;
   color: #FFFEFE;
   font-size: 25px;
@@ -330,11 +334,12 @@ body {
   gap: 20px;
   align-items: center;
   justify-content: space-evenly;
-  width: 90%;
+  width: 97.5%;
   font-family: "Open Sans", sans-serif;
   color: #FFFEFE;
   font-size: 25px;
 margin-left: 10px;
+margin-top: 10px;
   /* position: absolute;
   right:25%;
   top:90px;*/
@@ -443,6 +448,10 @@ margin-left: 10px;
   -ms-overflow-style: none;
   /* Internet Explorer / Edge */
 
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+
 }
 
 
@@ -451,7 +460,7 @@ margin-left: 10px;
   gap: 20px;
   align-content: center;
   justify-content: space-between;
-  width: 90%;
+  width: 97.5%;
   font-family: "Open Sans", sans-serif;
   color: #FFFEFE;
   font-size: 25px;
@@ -825,11 +834,14 @@ display: none;
 .store-task2{
   max-height: 180px;
 }
-.moblie-profile{
-  padding-bottom: 20px;
-}
 .moblie-sub-title{
-  padding-bottom: 20px;
+ padding-bottom: 40px;
+  
+}
+.moblie-profile{
+  padding-bottom:25px;
+  padding-right: 50px;
+  padding-top: 0px;
 }
 }
 
