@@ -64,7 +64,7 @@ body {
 /* left */
 .left-side {
   width: 30%;
-  /* height: 100%; */
+  height: 85vh;
   background-color: #001A56;
   border-radius: 40px 0 0 40px;
   display: flex;
@@ -72,6 +72,12 @@ body {
   flex-direction: column;
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow: scroll;
+   scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer / Edge */
+  justify-content: space-around;
 }
 
 .part1{
@@ -142,7 +148,13 @@ body {
   height: 85vh;
   background: linear-gradient(90deg, #4724D8 0%, #1045d7 100%);
   border-radius: 0 40px 40px 0;
-  padding: 60px 30px 30px 60px;
+  padding: 30px 30px 20px 60px;
+    overflow: scroll;
+     scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* Internet Explorer / Edge */
+   
 
 }
 
@@ -165,8 +177,8 @@ body {
 
 .overallTask{
  width: 100%;
-  height: 100%;
-   max-height: 200px;
+  /* height: 100%; */
+   max-height:30vh;
   margin-bottom: 20px;
   overflow-y: scroll;
   /* enable vertical scroll */
@@ -421,8 +433,8 @@ margin-left: 10px;
 }
 .store-task2 {
   width: 100%;
-  height: 100%;
-   max-height: 200px;
+  /* height: 100%; */
+   max-height: 30vh;
   margin-bottom: 20px;
   overflow-y: scroll;
   /* enable vertical scroll */
@@ -767,14 +779,14 @@ display: none;
     font-size: 18px;
   }
   .ok{
-    font-size: 12px;
-    height: 25px;
-    padding: 0;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px;
   }
   .close{
-    font-size: 12px;
-    height: 25px;
-    padding: 0;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px;
   }
   
 .checklist1 , .checklist2{
@@ -863,14 +875,14 @@ display: none;
     font-size: 18px;
   }
   .ok{
-    font-size: 12px;
-    height: 25px;
-    padding: 0;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px;
   }
   .close{
-    font-size: 12px;
-    height: 25px;
-    padding: 0;
+    font-size: 16px;
+    height: 40px;
+    padding: 5px;
   }
   
 .checklist1 , .checklist2{
