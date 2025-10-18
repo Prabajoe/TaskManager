@@ -1,0 +1,401 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; 
+}
+
+body {
+  backdrop-filter: blur(10px);
+  background-image: url(./images/background.png);
+  background-size: cover;
+
+  
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskmanager {
+  display: flex;
+  border-radius: 50px;
+  box-shadow: 0 50 25px 60px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin: 40px auto;
+  backdrop-filter: blur(10px);
+  border: 3px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.taskmanager:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 65px 90px rgba(0, 0, 0, 0.4);
+  /* Deeper hover shadow */
+}
+
+.image {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px 0px 0px 50px;
+position: relative;
+
+}
+
+.login-page {
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/cardbackground.png);
+  background-size: cover;
+  border-radius: 0px 50px 50px 0px;
+  position: relative;
+}
+
+.card {
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.15),
+      /* semi-transparent white */
+      rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(10px);
+  /* frosted blur */
+  -webkit-backdrop-filter: blur(10px);
+  /* Safari support */
+  border-radius: 20px;
+  /* rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* light border for depth */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  /* subtle shadow */
+  padding: 40px;
+  color: #FFFFFF;
+  /* text color */
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  margin: 0 40px 0px 40px;
+}
+
+.header {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 32px;
+
+}
+
+.login-para {
+  font-family: "Open Sans", sans-serif;
+  color: #7DF9FF;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.inputbox{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  padding: 10px;
+  padding-left: 40px;
+  width: 300px;
+  color: #7DF9FF;
+  outline: none;
+  position: relative;
+}
+
+.inputbox::placeholder {
+  color: #7DF9FF;
+  opacity: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+.inputfield {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sign-in {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #00CDFA, #208BFF, #5A68FF, #9650FF);
+  padding: 12px;
+  width: 300px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sign-in:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.8);
+  cursor: pointer;
+}
+
+.user-icon {
+  position: absolute;
+  top: 170px;
+  padding-left: 15px;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 226px;
+  padding-left: 15px;
+}
+.login-pwd{
+   width: 16px;
+  height: 16px;
+  background: transparent;
+  border-radius: 30%;
+  border:#7DF9FF 2px solid;
+  appearance: none;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.3s ease;
+  right: 14%;
+  top: 57%;
+}
+.login-pwd:checked {
+  background-color: #7DF9FF;
+  border-color: #7DF9FF;
+}
+.login-pwd:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: -4px;
+  left: 2px;
+}
+.next{
+   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #00CDFA, #208BFF, #5A68FF, #9650FF);
+  padding: 10px;
+  width: 100px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  bottom:3%;
+  display: none;
+
+}
+.next:hover{
+   transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.8);
+  cursor: pointer;
+
+
+}
+
+
+/* ***********************************************************media query for login page************************************************************************************************************************** */
+
+@media(max-width:1200px){
+
+  .card{
+    width: 350px;
+  }
+}
+@media(max-width:1000px) {
+  .taskmanager{
+    flex-direction: column;
+      width: 85%;
+      height: 90vh;
+      margin:40px ;
+  }
+
+  .image {
+
+  width: 100%;
+  height: 100%;
+   border-radius: 50px 50px 50px 50px;
+  }
+  .next{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 25px;
+    color: #7DF9FF;
+
+  }
+  .login-page {
+    display: none;
+  width: 100%;
+  height: 100%;
+   border-radius: 50px 50px 50px 50px;
+  }
+
+  .card{
+
+       width: 600px;
+  height: 500px; 
+  }
+  .inputbox {
+    width: 450px;
+  }
+  .sign-in{
+
+     width: 450px;
+   font-size: 20px;
+   padding: 8px;
+  }
+  .user-icon {
+  position: absolute;
+  top: 220px;
+  padding-left: 15px;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 277px;
+  padding-left: 15px;
+}
+.login-pwd{
+
+  right: 14%;
+  top: 56%;
+}
+}
+
+@media(max-width:800px) {
+
+  .card{
+
+       width: 400px;
+  height: 400px; 
+  }
+  .inputbox {
+    width: 300px;
+  }
+  .sign-in{
+
+     width: 300px;
+   font-size: 20px;
+   padding: 8px;
+  }
+.user-icon {
+  position: absolute;
+  top: 170px;
+  padding-left: 15px;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 227px;
+  padding-left: 15px;
+}
+.login-pwd{
+    right: 15%;
+  top: 57.5%;
+}
+
+
+}
+
+
+
+@media(max-width:550px) {
+
+
+
+  .card{
+
+       width: 300px;
+  height: 400px; 
+  }
+  .inputbox {
+    width: 250px;
+  }
+  .sign-in{
+
+     width: 250px;
+   font-size: 18px;
+   padding: 8px;
+  }
+
+  .user-icon {
+  position: absolute;
+  top: 177px;
+  padding-left: 15px;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 233px;
+  padding-left: 15px;
+}
+.header{
+  font-size: 26px;
+}
+.login-pwd{
+  right: 12%;
+  top: 59%;
+}
+
+}
+
+@media(max-width:400px) {
+    .taskmanager{
+      width: 90%;
+      margin: 10px;
+    }
+  .card{
+
+       width: 280px;
+  height: 400px; 
+  }
+  .header{
+  font-size: 24px;
+}
+.login-pwd{
+  right: 9%;
+  top: 59%;
+}
+\  .user-icon {
+  position: absolute;
+  top: 174px;
+  padding-left: 15px;
+}
+
+.pass-icon {
+  position: absolute;
+  top: 231px;
+  padding-left: 15px;
+}
+
+}
