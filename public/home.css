@@ -612,7 +612,7 @@ i:hover {
     font-size: 30px;
   }
   h3{
-    font-size: 15px;
+    font-size: 18px;
   }
   .add{
     width:45px ;
@@ -728,10 +728,10 @@ display: none;
   gap: 10px;
  }
  .header1{
-    font-size: 25px;
+    font-size: 30px;
   }
   h3{
-    font-size: 12px;
+    font-size: 18px;
   }
   .add{
     width:40px ;
@@ -739,7 +739,7 @@ display: none;
     padding: 3px;
   }
   .header2{
-    font-size: 20px;
+    font-size: 25px;
   }
   .inputfield{
 
@@ -751,20 +751,20 @@ display: none;
 
   font-family: "Open Sans", sans-serif;
 
-  font-size: 15px;
-  padding-right: 5px;
+  font-size: 18px;
+  padding-right: 10px;
   margin-left: 5px;
 
 
   }
   .input{
-      padding: 10px;
+      padding: 15px;
   width: 100%;
   color: #FFFFFF;
-    font-size: 15px;
+    font-size: 18px;
   }
   .input::placeholder{
-    font-size: 15px;
+    font-size: 18px;
   }
   .ok{
     font-size: 12px;
@@ -781,21 +781,21 @@ display: none;
   display: flex;
 
   color: #FFFEFE;
-  font-size: 16px;
+  font-size: 25px;
  
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   
 }
 .check ,.check-completed{
-  width:20px;
-  height: 20px;
+  width:26px;
+  height: 26px;
 }
 .check:checked::after {
-  font-size: 10px;
+  font-size: 15px;
 }
 .check-completed:checked::after{
-  font-size: 10px;
+  font-size: 15px;
 }
 .taks-details2{
   padding: 0;
@@ -824,18 +824,18 @@ display: none;
   
   }
    .header1{
-    font-size: 25px;
+    font-size: 30px;
   }
   h3{
-    font-size: 12px;
+    font-size: 18px;
   }
   .add{
     width:35px ;
     height:35px ;
     padding: 3px;
   }
-  .header2{
-    font-size: 20px;
+   .header2{
+    font-size: 30px;
   }
   .inputfield{
 
@@ -847,20 +847,20 @@ display: none;
 
   font-family: "Open Sans", sans-serif;
 
-  font-size: 15px;
-  padding-right: 5px;
+  font-size: 18px;
+  padding-right: 10px;
   margin-left: 5px;
 
 
   }
   .input{
-      padding: 10px;
+      padding: 15px;
   width: 100%;
   color: #FFFFFF;
-    font-size: 15px;
+    font-size: 18px;
   }
   .input::placeholder{
-    font-size: 15px;
+    font-size: 18px;
   }
   .ok{
     font-size: 12px;
@@ -877,21 +877,21 @@ display: none;
   display: flex;
 
   color: #FFFEFE;
-  font-size: 16px;
+  font-size: 25px;
  
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
   
 }
 .check ,.check-completed{
-  width:20px;
-  height: 20px;
+  width:26px;
+  height: 26px;
 }
 .check:checked::after {
-  font-size: 10px;
+  font-size: 15px;
 }
 .check-completed:checked::after{
-  font-size: 10px;
+  font-size: 15px;
 }
 .taks-details2{
   padding: 0;
